@@ -1,0 +1,47 @@
+{
+ "autoname": "field:letter_type",
+ "creation": "2020-09-04 09:27:08.779123",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "letter_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "letter_type",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Letter Type",
+   "unique": 1
+  }
+ ],
+ "modified": "2020-11-30 16:52:40.541986",
+ "modified_by": "manager@silap.net",
+ "module": "Letters",
+ "name": "Letter Type",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "letter_type",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "letter_type",
+ "track_changes": 1
+}

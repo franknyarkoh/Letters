@@ -1,0 +1,23 @@
+{
+ "align_labels_right": 0,
+ "creation": "2020-12-16 10:56:29.146172",
+ "custom_format": 0,
+ "disabled": 0,
+ "doc_type": "Letter",
+ "docstatus": 0,
+ "doctype": "Print Format",
+ "font": "Default",
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>Letter<br><small>{{ doc.name }}</small>\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"date\", \"label\": \"Date\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"recipient_address\", \"label\": \"Recipient\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"through_address\", \"label\": \"Through Address\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"solutation\", \"label\": \"Salutation\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"subject\", \"label\": \"Subject\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"message\", \"label\": \"message\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"closing_remarks\", \"label\": \"Closing Remarks\"}, {\"print_hide\": 0, \"fieldname\": \"signature\", \"label\": \"Signature\"}, {\"print_hide\": 0, \"fieldname\": \"contact\", \"label\": \"Contact\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"copy_address\", \"label\": \"Copy Address\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}, {\"fieldtype\": \"Column Break\"}]",
+ "idx": 0,
+ "line_breaks": 0,
+ "modified": "2020-12-16 11:11:25.876903",
+ "modified_by": "manager@silap.net",
+ "module": "Letters",
+ "name": "letter dft",
+ "owner": "manager@silap.net",
+ "print_format_builder": 1,
+ "print_format_type": "Jinja",
+ "raw_printing": 0,
+ "show_section_headings": 0,
+ "standard": "Yes"
+}
